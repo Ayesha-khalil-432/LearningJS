@@ -25,15 +25,11 @@ let dolphinAvg = (96 + 108 + 89) / 3;
 let koalasAvg = (88 + 91 + 110) / 3;
 
 if (dolphinAvg > koalasAvg && dolphinAvg >= 100) {
-    console.log('Dolphine wins!');
+  console.log("Dolphine wins!");
+} else if (koalasAvg > dolphinAvg && koalasAvg >= 100) {
+  console.log("Koalas wins!");
+} else if (koalasAvg === dolphinAvg && koalasAvg >= 100 && dolphinAvg >= 100) {
+  console.log("Match Draws!");
+} else {
+  console.log("No one wins!");
 }
-else if (koalasAvg > dolphinAvg && koalasAvg >= 100) {
-    console.log('Koalas wins!');
-}
-else if (koalasAvg === dolphinAvg && koalasAvg >= 100 && dolphinAvg >= 100) {
-    console.log('Match Draws!');
-}
-else {
-    console.log('No one wins!');
-}
-

@@ -14,7 +14,7 @@ console.log(!hasDriverLicense);
 console.log(!hasGoodVision);
 
 let shouldDrive = hasDriverLicense && hasGoodVision;
-if (shouldDrive) console.log('i should drive(and)')
+if (shouldDrive) console.log('i should drive(and)');
 
 shouldDrive = hasDriverLicense || hasGoodVision;
-if (shouldDrive) console.log('i should drive(or)')
+if (shouldDrive) console.log('i should drive(or)');
