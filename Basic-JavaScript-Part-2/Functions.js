@@ -50,3 +50,12 @@ function func3(){
     func2();
     console.log('Function 3');
 }
+
+//can also recieve data and return data
+function foodProcessor(apple, mango) {
+    console.log(apple, mango);
+    const juice = `Juice with ${apple} apples and ${mango} mangoes`;
+    return juice;
+}
+
+console.log(foodProcessor(2, 3));
