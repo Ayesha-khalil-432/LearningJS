@@ -37,15 +37,15 @@ const caculateAge2 = function (birthYear) {
 console.log(caculateAge2(2000));
 
 //we can call one function in another function
-function func1(){
+function func1() {
     console.log('Function 1')
     console.log('Function 2 called in function 1 ', func2());
 }
-function func2(){
+function func2() {
     console.log('Function 1 called in function 2 ', func1());
     console.log('Function 2');
 }
-function func3(){
+function func3() {
     func1();
     func2();
     console.log('Function 3');
@@ -59,3 +59,18 @@ function foodProcessor(apple, mango) {
 }
 
 console.log(foodProcessor(2, 3));
+
+//we can call one function in another function
+function func1() {
+    console.log('Function 1')
+    console.log('Function 2 called in function 1 ', func2());
+}
+function func2() {
+    console.log('Function 1 called in function 2 ', func1());
+    console.log('Function 2');
+}
+function func3() {
+    func1();
+    func2();
+    console.log('Function 3');
+}
