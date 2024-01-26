@@ -22,3 +22,11 @@ const printForeCast = function (arr) {
     return str;
 }
 console.log(printForeCast([17, 21, 23]));
+const printForeCastt = function (arr) {
+    let str = '';
+    for (let i = 0; i < arr.length; i++) {
+        str += `... ${arr[i]}ºC in ${i + 1} days `;
+    }
+    return str;
+}
+console.log(printForeCast([17, 21, 23]));
